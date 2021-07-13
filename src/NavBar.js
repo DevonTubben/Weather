@@ -27,7 +27,18 @@ class NavBar extends Component{
                 >
                     Home
                 </NavLink>
+
+                <NavLink
+                to='/Weather' 
+                exact
+                style={link}
+                activeStyle={{
+                    background: 'pink'
+                }}
                
+                >
+                    Weather 
+                    </NavLink>
             </div>
         )
     }
