@@ -19,8 +19,14 @@ class NavBar extends Component{
                 <NavLink
                 to='/' 
                 exact
-                Home 
-                ></NavLink>
+                style={link}
+                activeStyle={{
+                    background: 'pink'
+                }}
+               
+                >
+                    Home
+                </NavLink>
                
             </div>
         )
