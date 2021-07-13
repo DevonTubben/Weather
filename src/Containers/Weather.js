@@ -1,4 +1,5 @@
 import React, { Component } from 'react' 
+//import Weather1 from '../component/weather1'
 
 class Weather extends Component{ 
     constructor(){ 
@@ -15,6 +16,7 @@ class Weather extends Component{
     }
 
     render(){ 
+        // const weather1 = this.state.weather1.map(weather)
         return( 
             <div> 
 
